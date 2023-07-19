@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+  body {
+    font-family:sans-serif;
+    background-color:rgb(141, 123, 100);
+  }
+ .centre{
+    font-size:20px ;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    
+ }
+
+
+img {
+    width: 80%;
+    height: auto;
+    padding-bottom: 20px;
+
+}
+
+.heading{
+    background-color: rgb(54, 43, 43);
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: aliceblue;
+    padding-top: 10px;
+
+}
+.hide-mobile{
+display: flex;
+justify-content: space-around;
+width: 60%;
+padding-left: 100px;
+margin: 0 auto;
+padding-top: 3px;
+
+
+}
+
+
+
+ ul {  list-style-type: none;
+ } 
+.hide-mobile li a {
+    text-decoration: none;
+    color: white;
+
+}
+nav a:hover {
+    color: antiquewhite;
+}
+
+.container{
+    padding: 1em 1em;
+    text-align: center;
+    
+}
+
+.colon{
+    margin: 0 auto;
+    
+}
+
+.blue-container{
+    background-color:rgb(17, 94, 124);
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 20px;}
+
+  .casino{
+    font-size:20px ;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+
+
+  }
+  
+   
+  
+   table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+    padding: 1rem;
+    
+   } 
+
+   th, td{
+    background-color: rgb(54, 43, 43);
+    color: aliceblue;
+   } 
+    
+    table{
+        font-size: 1.3rem;
+    }
+ 
+    fieldset{
+        padding: 1rem;
+        margin: 1rem;
+    }
+label{
+    color: white;
+}
+#menu{
+    color: white;
+}
+
+::placeholder{
+    font-size:1rem ;
+}
+
+#btn{
+    font-size: 1.2rem;
+    padding: 1px;
+    width: 200px;
+    border-radius: 0.5em;
+    margin: 5px 0 15px 20px;
+    background-color: rgb(17, 94, 124);
+    color: white;
+}
+
+ #up{
+    font-size: 1.2rem;
+    padding: 1px;
+    width: 200px;
+    border-radius: 0.5em;
+    
+    background-color: rgb(17, 94, 124);
+    color: white;
+    float: right;
+    margin-right: 5px;
+    
+ }
+ @media screen and (min-width:600px) {
+    table{
+        font-size: 1.8rem;
+    }
+    img{
+        width: 70%;
+    }
+    .blue-container{
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+   
+    
+ }
